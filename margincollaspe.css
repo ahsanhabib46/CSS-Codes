@@ -1,0 +1,16 @@
+/* margin collapsing means taking higher margin than(bigger one) other margin  */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1,.header2 {
+    border: 2px solid rgb(39, 44, 39);
+    padding: 10px;
+}
+
+.header1{
+    margin-bottom: 40px;
+}
+.header2{
+    margin-top: 50px;
+}

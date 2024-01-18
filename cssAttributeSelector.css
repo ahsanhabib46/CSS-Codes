@@ -1,0 +1,26 @@
+/* attribute selector anyName like input[type="text"]{} */
+
+input[type="text"]{
+    color: blueviolet;
+}
+
+input[type="password"]{
+    color: blue;
+    background-color: rgb(212, 207, 218);
+}
+
+/* any exact value selector use (*=) */
+
+a[href *= "google"]{
+    color: chartreuse;
+}
+
+/* use caret sign (^=) to select exact value */
+a[href ^="https"]{
+    color: rgb(97, 82, 82);
+}
+
+/* use of $ sign for select exact value ($=) */
+a[href $=".com"]{
+    color: darkcyan;
+}

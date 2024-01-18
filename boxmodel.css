@@ -1,0 +1,21 @@
+/* there are three types of border style solid,dashed,dotted,ridge(3d type),groove,inset,outset */
+/* short cuts to write border width,style and color = border : width style  color */
+/* back ground takes place from where border starts  */
+h2{
+    border: 2px solid red;
+    border-radius: 5px;
+    /* top,right,bottom,left padding */
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+header{
+    border: 3px solid green;
+}
+
+li{
+    border: 2px solid blue;
+}

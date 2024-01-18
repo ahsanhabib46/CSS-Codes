@@ -1,0 +1,16 @@
+/* preference order: inline css attribute> id selector> class selector > element selector */
+/* space means init */
+main#container ul.fav-game li{
+    color: brown;
+    background-color: lawngreen;
+}
+
+/* how to calculate specificity */
+/* 0, 1, 1, 3*/
+
+/* way of increasing specificity */
+main#container ul.fav-game li.cric{
+    color: red;
+    background-color: aqua;
+}
+/* specificity 0,0,1,0 */

@@ -1,0 +1,33 @@
+/*universal selector *
+ css selector = combinator(hyphen) , descended(hyphen),direct child combinator(>), descended selector(.),adjacent(+) */
+
+header{
+    background-color: rgb(142, 168, 168);
+}
+
+section.my-article{
+    color: red;
+}
+/* descended selector (hyphen) */
+header p{
+    color: rgb(212, 29, 29);
+}
+/* combinator (hyphen) */
+li a{
+    color: aqua;
+}
+/* direct child combinator (>) */
+section.my-article > h2{
+    color: green;
+}
+/* adjacent(+) selector */
+h2+p{
+    color: blue;
+}
+ul+p{
+    color:#ffaefa ;
+}
+
+main > h2{
+    background-color: #ffaefa;
+}
