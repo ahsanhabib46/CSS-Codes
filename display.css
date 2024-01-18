@@ -1,0 +1,63 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(14, 12, 12);
+    padding: 0 40px;
+}
+nav{
+    background-color: cadetblue;
+}
+nav ul{
+    text-align: center;
+    color: azure;
+    padding-left: 0px;
+}
+nav li{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px 20px;
+    padding: 0 5px;
+    border-bottom: 1px solid rgb(19, 17, 17);
+    font-size: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    background-color: indigo;
+}
+
+
+section{
+    padding:0 20px;
+}
+
+h3{
+    border-bottom: 2px solid black;
+}
+form label{
+    text-align: center;
+    margin: 5px 5px ;
+
+}
+
+form input{
+    align-items: center;
+    text-align: center;
+    margin: 5px 5px ;
+}
+
