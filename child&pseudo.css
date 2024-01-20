@@ -1,0 +1,25 @@
+/* p:first-child{ 
+ color: red;
+} */
+
+/* p:first-of-type{
+    color: aqua;
+}
+
+p:last-child{
+    color: rgb(134, 21, 21);
+}
+
+
+p:nth-child(2){
+    color: red;
+}
+*/
+p:nth-last-of-type(2){
+    color: rgb(235, 54, 9);
+} 
+
+
+/* header :root(h3){
+    color: blue;
+}*/
